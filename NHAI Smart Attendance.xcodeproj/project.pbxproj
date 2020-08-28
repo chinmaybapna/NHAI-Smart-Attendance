@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		820D15C224EE90DD00410666 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820D15C124EE90DD00410666 /* PasswordViewController.swift */; };
+		8228EDD724F0171D005E12E2 /* GoogleService-Info-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8228EDD624F0171D005E12E2 /* GoogleService-Info-1.plist */; };
+		8228EDD924F01988005E12E2 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228EDD824F01988005E12E2 /* Connectivity.swift */; };
+		8229627D24EFCFE400FDC048 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8229627C24EFCFE400FDC048 /* ForgotPasswordViewController.swift */; };
+		82485F8024F96C8A00D4779B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82485F7F24F96C8A00D4779B /* GoogleService-Info.plist */; };
+		82544DA424E3E7FB00C6A744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82544DA324E3E7FB00C6A744 /* AppDelegate.swift */; };
+		82544DAB24E3E7FC00C6A744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82544DA924E3E7FC00C6A744 /* Main.storyboard */; };
+		82544DAD24E3E7FD00C6A744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82544DAC24E3E7FD00C6A744 /* Assets.xcassets */; };
+		82544DB024E3E7FD00C6A744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82544DAE24E3E7FD00C6A744 /* LaunchScreen.storyboard */; };
+		8297046624E5816A0074D209 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297046424E5816A0074D209 /* ProfileTableViewCell.swift */; };
+		8297046724E5816A0074D209 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8297046524E5816A0074D209 /* ProfileTableViewCell.xib */; };
+		8297046924E581FA0074D209 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297046824E581FA0074D209 /* HomeViewController.swift */; };
+		8297046B24E583700074D209 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297046A24E583700074D209 /* ProfileViewController.swift */; };
+		8297046D24E589E10074D209 /* QrScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297046C24E589E10074D209 /* QrScanViewController.swift */; };
+		8297046F24E595FA0074D209 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297046E24E595F90074D209 /* FirstViewController.swift */; };
+		8297047124E596270074D209 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297047024E596270074D209 /* LoginViewController.swift */; };
+		8297047324E5966B0074D209 /* LoginStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297047224E5966B0074D209 /* LoginStatusViewController.swift */; };
+		8297047524E5969C0074D209 /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297047424E5969C0074D209 /* OtpViewController.swift */; };
+		8297047724E596DD0074D209 /* SetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297047624E596DD0074D209 /* SetPasswordViewController.swift */; };
+		8297047B24E597200074D209 /* PasswordSetSuccessfullyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297047A24E597200074D209 /* PasswordSetSuccessfullyViewController.swift */; };
+		8297047D24E5AC8E0074D209 /* ContactNotInDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297047C24E5AC8E0074D209 /* ContactNotInDatabaseViewController.swift */; };
+		A783DBD6290BCAD8DC2ABD0E /* Pods_NHAI_Smart_Attendance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030A2402C21A1635425E1C47 /* Pods_NHAI_Smart_Attendance.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030A2402C21A1635425E1C47 /* Pods_NHAI_Smart_Attendance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHAI_Smart_Attendance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2042E269BED5A6C2144A7E /* Pods-NHAI Smart Attendance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHAI Smart Attendance.release.xcconfig"; path = "Target Support Files/Pods-NHAI Smart Attendance/Pods-NHAI Smart Attendance.release.xcconfig"; sourceTree = "<group>"; };
+		344CE1AD9469D17C88D4BDE0 /* Pods-NHAI Smart Attendance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHAI Smart Attendance.debug.xcconfig"; path = "Target Support Files/Pods-NHAI Smart Attendance/Pods-NHAI Smart Attendance.debug.xcconfig"; sourceTree = "<group>"; };
+		820D15C124EE90DD00410666 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		8228EDD624F0171D005E12E2 /* GoogleService-Info-1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-1.plist"; sourceTree = "<group>"; };
+		8228EDD824F01988005E12E2 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		8229627C24EFCFE400FDC048 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		82485F7F24F96C8A00D4779B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82544DA024E3E7FB00C6A744 /* NHAI Attendance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NHAI Attendance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82544DA324E3E7FB00C6A744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82544DAA24E3E7FC00C6A744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82544DAC24E3E7FD00C6A744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82544DAF24E3E7FD00C6A744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82544DB124E3E7FD00C6A744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8297046424E5816A0074D209 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		8297046524E5816A0074D209 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		8297046824E581FA0074D209 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8297046A24E583700074D209 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8297046C24E589E10074D209 /* QrScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrScanViewController.swift; sourceTree = "<group>"; };
+		8297046E24E595F90074D209 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8297047024E596270074D209 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8297047224E5966B0074D209 /* LoginStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStatusViewController.swift; sourceTree = "<group>"; };
+		8297047424E5969C0074D209 /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
+		8297047624E596DD0074D209 /* SetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordViewController.swift; sourceTree = "<group>"; };
+		8297047A24E597200074D209 /* PasswordSetSuccessfullyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSetSuccessfullyViewController.swift; sourceTree = "<group>"; };
+		8297047C24E5AC8E0074D209 /* ContactNotInDatabaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactNotInDatabaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82544D9D24E3E7FB00C6A744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A783DBD6290BCAD8DC2ABD0E /* Pods_NHAI_Smart_Attendance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63E1A23CB639FA7738C0EECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030A2402C21A1635425E1C47 /* Pods_NHAI_Smart_Attendance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8222B0DA24F6CD6D00D50D92 /* Profile view */ = {
+			isa = PBXGroup;
+			children = (
+				8297046A24E583700074D209 /* ProfileViewController.swift */,
+				8297046424E5816A0074D209 /* ProfileTableViewCell.swift */,
+				8297046524E5816A0074D209 /* ProfileTableViewCell.xib */,
+			);
+			path = "Profile view";
+			sourceTree = "<group>";
+		};
+		8222B0DB24F6CD9300D50D92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8297046E24E595F90074D209 /* FirstViewController.swift */,
+				8297047024E596270074D209 /* LoginViewController.swift */,
+				8297047C24E5AC8E0074D209 /* ContactNotInDatabaseViewController.swift */,
+				8297047224E5966B0074D209 /* LoginStatusViewController.swift */,
+				8297047424E5969C0074D209 /* OtpViewController.swift */,
+				8297047624E596DD0074D209 /* SetPasswordViewController.swift */,
+				8297047A24E597200074D209 /* PasswordSetSuccessfullyViewController.swift */,
+				8297046824E581FA0074D209 /* HomeViewController.swift */,
+				8297046C24E589E10074D209 /* QrScanViewController.swift */,
+				8222B0DA24F6CD6D00D50D92 /* Profile view */,
+				820D15C124EE90DD00410666 /* PasswordViewController.swift */,
+				8229627C24EFCFE400FDC048 /* ForgotPasswordViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82544D9724E3E7FB00C6A744 = {
+			isa = PBXGroup;
+			children = (
+				82544DA224E3E7FB00C6A744 /* NHAI Smart Attendance */,
+				82544DA124E3E7FB00C6A744 /* Products */,
+				B2AD95CE6B18822530F559EF /* Pods */,
+				63E1A23CB639FA7738C0EECD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82544DA124E3E7FB00C6A744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82544DA024E3E7FB00C6A744 /* NHAI Attendance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82544DA224E3E7FB00C6A744 /* NHAI Smart Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				82544DA324E3E7FB00C6A744 /* AppDelegate.swift */,
+				82544DA924E3E7FC00C6A744 /* Main.storyboard */,
+				82544DAC24E3E7FD00C6A744 /* Assets.xcassets */,
+				82544DAE24E3E7FD00C6A744 /* LaunchScreen.storyboard */,
+				82544DB124E3E7FD00C6A744 /* Info.plist */,
+				82485F7F24F96C8A00D4779B /* GoogleService-Info.plist */,
+				8228EDD624F0171D005E12E2 /* GoogleService-Info-1.plist */,
+				8222B0DB24F6CD9300D50D92 /* Views */,
+				8228EDD824F01988005E12E2 /* Connectivity.swift */,
+			);
+			path = "NHAI Smart Attendance";
+			sourceTree = "<group>";
+		};
+		B2AD95CE6B18822530F559EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				344CE1AD9469D17C88D4BDE0 /* Pods-NHAI Smart Attendance.debug.xcconfig */,
+				0C2042E269BED5A6C2144A7E /* Pods-NHAI Smart Attendance.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82544D9F24E3E7FB00C6A744 /* NHAI Smart Attendance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82544DB424E3E7FD00C6A744 /* Build configuration list for PBXNativeTarget "NHAI Smart Attendance" */;
+			buildPhases = (
+				5A990A52E95B63F599F94839 /* [CP] Check Pods Manifest.lock */,
+				82544D9C24E3E7FB00C6A744 /* Sources */,
+				82544D9D24E3E7FB00C6A744 /* Frameworks */,
+				82544D9E24E3E7FB00C6A744 /* Resources */,
+				688784784012468DBA7779E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NHAI Smart Attendance";
+			productName = "NHAI Smart Attendance";
+			productReference = 82544DA024E3E7FB00C6A744 /* NHAI Attendance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82544D9824E3E7FB00C6A744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Chinmay Bapna";
+				TargetAttributes = {
+					82544D9F24E3E7FB00C6A744 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 82544D9B24E3E7FB00C6A744 /* Build configuration list for PBXProject "NHAI Smart Attendance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82544D9724E3E7FB00C6A744;
+			productRefGroup = 82544DA124E3E7FB00C6A744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82544D9F24E3E7FB00C6A744 /* NHAI Smart Attendance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82544D9E24E3E7FB00C6A744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82544DB024E3E7FD00C6A744 /* LaunchScreen.storyboard in Resources */,
+				8297046724E5816A0074D209 /* ProfileTableViewCell.xib in Resources */,
+				82485F8024F96C8A00D4779B /* GoogleService-Info.plist in Resources */,
+				82544DAD24E3E7FD00C6A744 /* Assets.xcassets in Resources */,
+				82544DAB24E3E7FC00C6A744 /* Main.storyboard in Resources */,
+				8228EDD724F0171D005E12E2 /* GoogleService-Info-1.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A990A52E95B63F599F94839 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHAI Smart Attendance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		688784784012468DBA7779E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NHAI Smart Attendance/Pods-NHAI Smart Attendance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NHAI Smart Attendance/Pods-NHAI Smart Attendance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NHAI Smart Attendance/Pods-NHAI Smart Attendance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82544D9C24E3E7FB00C6A744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8297047524E5969C0074D209 /* OtpViewController.swift in Sources */,
+				8297046624E5816A0074D209 /* ProfileTableViewCell.swift in Sources */,
+				8228EDD924F01988005E12E2 /* Connectivity.swift in Sources */,
+				820D15C224EE90DD00410666 /* PasswordViewController.swift in Sources */,
+				8297046B24E583700074D209 /* ProfileViewController.swift in Sources */,
+				82544DA424E3E7FB00C6A744 /* AppDelegate.swift in Sources */,
+				8297047B24E597200074D209 /* PasswordSetSuccessfullyViewController.swift in Sources */,
+				8297047324E5966B0074D209 /* LoginStatusViewController.swift in Sources */,
+				8297047124E596270074D209 /* LoginViewController.swift in Sources */,
+				8297047724E596DD0074D209 /* SetPasswordViewController.swift in Sources */,
+				8297046D24E589E10074D209 /* QrScanViewController.swift in Sources */,
+				8229627D24EFCFE400FDC048 /* ForgotPasswordViewController.swift in Sources */,
+				8297046924E581FA0074D209 /* HomeViewController.swift in Sources */,
+				8297046F24E595FA0074D209 /* FirstViewController.swift in Sources */,
+				8297047D24E5AC8E0074D209 /* ContactNotInDatabaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82544DA924E3E7FC00C6A744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82544DAA24E3E7FC00C6A744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82544DAE24E3E7FD00C6A744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82544DAF24E3E7FD00C6A744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82544DB224E3E7FD00C6A744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82544DB324E3E7FD00C6A744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82544DB524E3E7FD00C6A744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344CE1AD9469D17C88D4BDE0 /* Pods-NHAI Smart Attendance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2A43ZNWB4F;
+				INFOPLIST_FILE = "NHAI Smart Attendance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhai.smartattendance;
+				PRODUCT_NAME = "NHAI Attendance";
+				PROVISIONING_PROFILE_SPECIFIER = "NHAI AdHoc Attendance App";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		82544DB624E3E7FD00C6A744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2042E269BED5A6C2144A7E /* Pods-NHAI Smart Attendance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2A43ZNWB4F;
+				INFOPLIST_FILE = "NHAI Smart Attendance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhai.smartattendance;
+				PRODUCT_NAME = "NHAI Attendance";
+				PROVISIONING_PROFILE_SPECIFIER = "NHAI AdHoc Attendance App";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82544D9B24E3E7FB00C6A744 /* Build configuration list for PBXProject "NHAI Smart Attendance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82544DB224E3E7FD00C6A744 /* Debug */,
+				82544DB324E3E7FD00C6A744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82544DB424E3E7FD00C6A744 /* Build configuration list for PBXNativeTarget "NHAI Smart Attendance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82544DB524E3E7FD00C6A744 /* Debug */,
+				82544DB624E3E7FD00C6A744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82544D9824E3E7FB00C6A744 /* Project object */;
+}
